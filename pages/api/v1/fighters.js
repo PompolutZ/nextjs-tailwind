@@ -8,7 +8,7 @@ export default async (req, res) => {
     return;
   }
   
-  const db = await open({ filename: `${process.cwd()}/test-db.sqlite`, driver: sqlite3.Database });
+  const db = await open({ filename: `./public/db/test-db.sqlite`, driver: sqlite3.Database });
   const result = await db.get('SELECT * FROM Fighters');
 
   res.statusCode = 200;
