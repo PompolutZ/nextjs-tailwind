@@ -13,4 +13,4 @@ INSERT INTO Fighters (id, name) VALUES (1, 'Morgwaeth');
 -- Down
 --------------------------------------------------------------------------------
 
-DROP TABLE Fighter;
+DROP TABLE Fighters;
